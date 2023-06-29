@@ -17,7 +17,7 @@ with open(nameoftextfiletxt, "r") as file:
     word_list = []
     for word in words:
         word_list.append(word)
-        word_counts = Counter(word_list)
-        sorted_counts = sorted(word_counts.items(), key=lambda x: x[1], reverse=True)
-        most-occuring = sorted_counts[0]
-        print(f"The most occuring word is {most-occuring[0]} abd it appears {most-occuring[1]} times")
+    word_counts = Counter(word_list)
+    sorted_counts = sorted(word_counts.items(), key=lambda x: x[1], reverse=True)
+    most_occuring = sorted_counts[0]
+    print(f"The most occuring word is {most_occuring[0]} and it appears {most_occuring[1]} times")
