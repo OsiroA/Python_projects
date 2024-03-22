@@ -2,7 +2,7 @@
 This repository is for projects I do in the python class organized by freecodecamp.org
 
 README.md for arithmetic_arranger Function
-
+HGHF
 The arithmetic_arranger() function takes in a list of arithmetic problems in the form of strings and returns a formatted string that arranges the problems vertically.
 
 Inputs
