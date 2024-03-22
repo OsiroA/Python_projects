@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Entries</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="{{ url_for('input') }}">Add Entry</a>
+    <h1>Entries</h1>
+    <ul>
+        {% for entry in entries %}
+            <li>
+                <h2>{{ entry['Heading'] }}</h2>
+                <p>Date: {{ entry['Date'] }}</p>
+                <p>{{ entry['Body'] }}</p>
+                <img src="{{ entry['Image'] }}" alt="Image">
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
