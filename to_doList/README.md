@@ -1,3 +1,4 @@
+
 # To-Do List Manager
 
 ## Author: Osiro Asunde
@@ -28,3 +29,20 @@ This Python script allows users to manage their to-do lists by adding, editing, 
 
 ### Installation:
 1. Clone the repository:
+   ```
+   git clone https://github.com/username/project.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd project
+   ```
+3. Run the script:
+   ```
+   python todo_list.py
+   ```
+
+### Contribution:
+Contributions are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
+
+### License:
+This project, authored by Osiro Asunde, is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
