@@ -1,0 +1,23 @@
+<!-- result.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Results</title>
+</head>
+<body>
+    <h1>Music List</h1>
+    <ul>
+    {% for track in songs %}
+        <li>
+            <p>Artist: {{ track['Artist Name'] }}</p>
+            <p>Song: {{ track['Track Name'] }}</p>
+            <audio controls>
+                <source src="{{ track['Preview URL'] }}" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </li>
+    {% endfor %}
+    </ul>
+  <input type = 'submit' value='Next'>
+</body>
+</html>
