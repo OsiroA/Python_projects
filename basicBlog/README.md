@@ -1,12 +1,23 @@
 Flask Blog Application by Osiro Asunde
 
-This is a simple Flask blog application where users can log in, input blog entries, and view them.
+This Flask blog application allows users to log in, input blog entries, and view them. It serves as a simple platform for users to share their thoughts, ideas, and experiences through blog posts.
+
+Purpose
+
+The purpose of this project is to provide a user-friendly interface for creating and managing blog entries. It simplifies the process of blogging by offering a straightforward input form and an organized display of blog entries.
+
+Technologies and Libraries Used
+
+	•	Flask: Web framework for Python that provides tools, libraries, and patterns to build web applications.
+	•	Python-dotenv: Library for managing environment variables.
+	•	HTML/CSS: Used for creating the structure and styling of the web pages.
+	•	Git: Version control system for tracking changes in the project.
 
 Installation
 
 	1.	Clone the repository to your local machine:
 
-git clone https://github.com/yourusername/flask-blog.git
+git clone https://github.com/OsiroA/Python_projects.git
 
 
 	2.	Install the required dependencies by running:
@@ -32,7 +43,7 @@ python app.py
 	3.	Access the application in your web browser at http://localhost:81.
 	4.	Log in with the predefined username and password:
 	•	Username: Osiro
-	•	Password: [your_secret_key_here]
+	•	Password: [your_secret_key_here] - attach your email to a commit in a pull request to get this
 	5.	Input your blog entries by filling out the form on the input page.
 	6.	View all blog entries on the display page.
 
@@ -42,13 +53,10 @@ File Structure
 	•	templates/: Directory containing HTML templates for the application.
 	•	static/: Directory for static assets such as images.
 
-Dependencies
+Code Repository
 
-	•	Flask: Web framework for Python.
-	•	Python-dotenv: Library for managing environment variables.
+The code repository for this project is available at [Github](https://github.com/OsiroA/Python_projects/tree/main/basicBlog)
 
-Notes
+Challenges Faced
 
-	•	Make sure to keep your secret key secure and never expose it publicly.
-
-Let me know if there’s anything else you’d like to add or modify!
+One challenge faced during the project was implementing user authentication and authorization. This was overcome by utilizing Flask’s built-in features for handling user sessions and creating a secure login system.
