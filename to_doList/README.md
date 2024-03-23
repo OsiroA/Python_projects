@@ -44,5 +44,3 @@ This Python script allows users to manage their to-do lists by adding, editing, 
 ### Contribution:
 Contributions are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
 
-### License:
-This project, authored by Osiro Asunde, is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
